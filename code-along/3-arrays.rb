@@ -34,6 +34,8 @@ favorite_foods.push ("sushi")
 # add another array string (if you have multiple adds) 
 favorite_foods = favorite_foods + ["burgers","fries"]
 puts favorite_foods
+# count number of favorite foods 
+puts favorite_foods.count
 
 # There are lots of fun things you can do with arrays:
 # https://ruby-doc.org/core-2.7.0/Array.html

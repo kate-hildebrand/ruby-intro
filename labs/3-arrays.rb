@@ -15,3 +15,28 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+#create lists 
+friend_list = ["beer","cookies","apples"]
+my_list = ["beer","milk","eggs","bacon"]
+
+# puts friend_list 
+# puts my_list
+
+#combine lists 
+our_list = friend_list + my_list
+
+#sort list
+sorted_list = our_list.sort
+
+
+#remove duplicates 
+unique_sorted_list = sorted_list.uniq 
+# puts unique_sorted_list
+
+# add a buy statment 
+puts "Buy #{unique_sorted_list[0]}"
+puts "Buy #{unique_sorted_list[1]}"
+puts "Buy #{unique_sorted_list[3]}"
+puts "Buy #{unique_sorted_list[4]}"
+puts "Buy #{unique_sorted_list[5]}"
