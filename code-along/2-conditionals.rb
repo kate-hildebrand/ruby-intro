@@ -64,9 +64,9 @@ real_password ="secret"
 
 
 # Combining Expressions
-# temp = 68
-# precip = 0
+temp = 68
+precip = 0
 
-# if temp >= 65 && temp <= 90 || precip == 0
-#         puts "It's nice outside!"
-# end
+if (temp >= 65 && temp <= 90) || (precip == 0)
+        puts "It's nice outside!"
+end
