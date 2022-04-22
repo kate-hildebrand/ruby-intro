@@ -36,10 +36,14 @@ puts "The total is: #{total}"
 # that reads "YOU LOSE!", otherwise, write a message that
 # reads "THE POINT IS {number}"
 
+
 if total == 7 || total == 11
+    # test if we won
     puts "YOU WIN!"
 elsif total == 2 || total == 3 || total == 12
+    # test if we lose 
     puts "YOU LOSE!"
 else
+    # test if the point is set 
     puts "THE POINT IS #{total}"  
 end  
