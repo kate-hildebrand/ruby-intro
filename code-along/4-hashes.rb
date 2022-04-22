@@ -4,8 +4,10 @@
 
 # Hashes are lists of *key-value pairs*
 me = {
-    "name" => "Kate",
-    "location" => "Chicago",
+    # embed multiple hashes into statement 
+    "name" => {"first_name" => "Kate", "last_name" => "Hildebrand"},
+    # another embedded multiple hash 
+    "location" => {"city" => "Chicago", "state" => "Illinois"},
     "status" => "Learning"
     }
 puts me
@@ -21,7 +23,8 @@ movies = [{
 
 puts movies
 
-# Accessing data from the hash
- 
+# Accessing data from the hash, city from location hash -> multi-level hash 
+puts me["location"]["city"]
+
 
 # More Complex Hashes
